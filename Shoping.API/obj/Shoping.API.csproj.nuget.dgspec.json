@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shoping.API\\Shoping.API.csproj": {}
+  },
+  "projects": {
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shoping.API\\Shoping.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shoping.API\\Shoping.API.csproj",
+        "projectName": "Shoping.API",
+        "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shoping.API\\Shoping.API.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shoping.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj"
+              },
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj"
+              },
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj"
+              },
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj"
+              },
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Services\\Shopping.BAL.Implement.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Services\\Shopping.BAL.Implement.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj",
+        "projectName": "Shopping.Domain",
+        "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj",
+        "projectName": "Shopping.DAL.Interface",
+        "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj",
+        "projectName": "Shopping.BAL.Interface",
+        "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Domain\\Shopping.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj",
+        "projectName": "Shopping.DAL.Implement",
+        "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Services\\Shopping.BAL.Implement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Services\\Shopping.BAL.Implement.csproj",
+        "projectName": "Shopping.BAL.Implement",
+        "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Services\\Shopping.BAL.Implement.csproj",
+        "packagesPath": "C:\\Users\\nhatt\\.nuget\\packages\\",
+        "outputPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IRepository\\Shopping.DAL.Interface.csproj"
+              },
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.IServices\\Shopping.BAL.Interface.csproj"
+              },
+              "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj": {
+                "projectPath": "D:\\LEARNING\\MODULE 3\\17. REST API\\Shopping\\Shopping.Repository\\Shopping.DAL.Implement.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

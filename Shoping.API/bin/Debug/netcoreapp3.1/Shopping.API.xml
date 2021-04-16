@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shopping.API</name>
+    </assembly>
+    <members>
+        <member name="M:Shopping.API.Controllers.CategoryController.Gets">
+            <summary>
+            Get all Category is actived
+            </summary>
+            <returns>List of Categories</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.GetCategoryById(System.Int32)">
+            <summary>
+            Get Category by Id
+            </summary>
+            <param name="categoryId"></param>
+            <returns>Specific Category has id want to find</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.CreateCategory(Shopping.Domain.Requests.Category.CreateCategoryReq)">
+            <summary>
+            Create new category
+            </summary>
+            <param name="request"></param>
+            <returns>CategoryId of new Category</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.EditCategory(Shopping.Domain.Requests.Category.EditCategoryReq)">
+            <summary>
+            Edit category information
+            </summary>
+            <param name="request"></param>
+            <returns>Result of edition</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.DeleteCategory(System.Int32)">
+            <summary>
+            Delete specific category with Id
+            </summary>
+            <param name="categoryId"></param>
+            <returns>Result of deletion</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.ProductController.Gets">
+            <summary>
+            Get all Product is actived
+            </summary>
+            <returns>List all Products</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.ProductController.GetProductById(System.String)">
+            <summary>
+            Get Product by Id
+            </summary>
+            <param name="productId"></param>
+            <returns>Specific Product has id want to find</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.ProductController.CreateProduct(Shopping.Domain.Requests.Product.CreateProductReq)">
+            <summary>
+            Create new Product
+            </summary>
+            <param name="request"></param>
+            <returns>ProductId of new Product</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.ProductController.EditProduct(Shopping.Domain.Requests.Product.EditProductReq)">
+            <summary>
+            Edit Product information
+            </summary>
+            <param name="request"></param>
+            <returns>Result of edition</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.ProductController.RestoreProduct(System.String)">
+            <summary>
+            Restore specific Product with Id
+            </summary>
+            <param name="productId"></param>
+            <returns>Result of restore product action</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.ProductController.DeleteProduct(System.String)">
+            <summary>
+            Delete specific Product with Id
+            </summary>
+            <param name="productId"></param>
+            <returns>Result of deletion</returns>
+        </member>
+    </members>
+</doc>

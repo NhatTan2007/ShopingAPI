@@ -1,0 +1,4 @@
+D:\LEARNING\MODULE 3\17. REST API\Shopping\Shopping.Repository\bin\Debug\netcoreapp3.1\Shopping.Domain.dll
+D:\LEARNING\MODULE 3\17. REST API\Shopping\Shopping.Repository\bin\Debug\netcoreapp3.1\Shopping.IRepository.dll
+D:\LEARNING\MODULE 3\17. REST API\Shopping\Shopping.Repository\obj\Debug\netcoreapp3.1\Shopping.Repository.AssemblyInfoInputs.cache
+D:\LEARNING\MODULE 3\17. REST API\Shopping\Shopping.Repository\obj\Debug\netcoreapp3.1\Shopping.Repository.AssemblyInfo.cs

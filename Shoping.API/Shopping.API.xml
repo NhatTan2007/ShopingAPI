@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shopping.API</name>
+    </assembly>
+    <members>
+        <member name="M:Shopping.API.Controllers.CategoryController.Gets">
+            <summary>
+            Get all Category is actived
+            </summary>
+            <returns>List of Categories</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.GetCategoryById(System.Int32)">
+            <summary>
+            Get Category by Id
+            </summary>
+            <param name="categoryId"></param>
+            <returns>Specific Category has id want to find</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.CreateCategory(Shopping.Domain.Requests.Category.CreateCategoryReq)">
+            <summary>
+            Create new category
+            </summary>
+            <param name="request"></param>
+            <returns>CategoryId of new Category</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.EditCategory(Shopping.Domain.Requests.Category.EditCategoryReq)">
+            <summary>
+            Edit category information
+            </summary>
+            <param name="request"></param>
+            <returns>Result of edition</returns>
+        </member>
+        <member name="M:Shopping.API.Controllers.CategoryController.DeleteCategory(Shopping.Domain.Requests.Category.DeleteCategoryReq)">
+            <summary>
+            Delete specific category with Id
+            </summary>
+            <param name="request"></param>
+            <returns>Result of deletion</returns>
+        </member>
+    </members>
+</doc>
